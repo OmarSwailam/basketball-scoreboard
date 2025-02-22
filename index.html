@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="app">
+        <div class="counter-card">
+            <h3 class="counter-title">HOME</h3>
+            <div class="counter-div">
+                <p id="home-counter">0</p>
+            </div>
+            <div class="counter-btns">
+                <button onclick="increment1('home')" class="increment-btn">+1</button>
+                <button onclick="increment2('home')" class="increment-btn">+2</button>
+                <button onclick="increment3('home')" class="increment-btn">+3</button>
+            </div>
+        </div>
+        <div class="counter-card">
+            <h3 class="counter-title">GUEST</h3>
+            <div class="counter-div">
+                <p id="guest-counter">0</p>
+            </div>
+            <div class="counter-btns">
+                <button onclick="increment1('guest')" class="increment-btn">+1</button>
+                <button onclick="increment2('guest')" class="increment-btn">+2</button>
+                <button onclick="increment3('guest')" class="increment-btn">+3</button>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

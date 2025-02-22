@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Cursed Timer;
+    src: url("./fonts/CursedTimer.ttf");
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Arimo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #EEEEEE;
+
+}
+
+.app {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #1B244A;
+    padding: 70px 85px;
+}
+
+.counter-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.counter-title {
+    font-weight: 700;
+    font-size: 140px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0;
+}
+
+.counter-div {
+    font-family: Cursed Timer;
+    font-size: 300px;
+    background: #080001;
+    color: #F94F6D;
+    width: 450px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.counter-btns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.increment-btn {
+    font-size: 50px;
+    width: 33%;
+    margin: 0 10px;
+    height: 130px;
+    font-family: Cursed Timer;
+    font-weight: 400;
+    line-height: 27.81px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 5px solid #9AABD8;
+    border-radius: 10px;
+    padding: 10px;
+}
