@@ -16,20 +16,27 @@
                 <p id="home-counter">0</p>
             </div>
             <div class="counter-btns">
-                <button onclick="increment1('home')" class="increment-btn">+1</button>
-                <button onclick="increment2('home')" class="increment-btn">+2</button>
-                <button onclick="increment3('home')" class="increment-btn">+3</button>
+                <button onclick="increment('home', 1)" class="increment-btn">+1</button>
+                <button onclick="increment('home', 2)" class="increment-btn">+2</button>
+                <button onclick="increment('home', 3)" class="increment-btn">+3</button>
             </div>
         </div>
+
+        <div class="more">
+            <p id="timer">00:00</p>
+            <button class="reset-btn" onclick="reset()">New Game</button>
+        </div>
+
+
         <div class="counter-card">
             <h3 class="counter-title">GUEST</h3>
             <div class="counter-div">
                 <p id="guest-counter">0</p>
             </div>
             <div class="counter-btns">
-                <button onclick="increment1('guest')" class="increment-btn">+1</button>
-                <button onclick="increment2('guest')" class="increment-btn">+2</button>
-                <button onclick="increment3('guest')" class="increment-btn">+3</button>
+                <button onclick="increment('guest', 1)" class="increment-btn">+1</button>
+                <button onclick="increment('guest', 2)" class="increment-btn">+2</button>
+                <button onclick="increment('guest', 3)" class="increment-btn">+3</button>
             </div>
         </div>
     </main>

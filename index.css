@@ -11,16 +11,16 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: #EEEEEE;
-
+    color: #eeeeee;
 }
 
 .app {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
-    background: #1B244A;
-    padding: 70px 85px;
+    background: #1b244a;
+    padding: 20px 85px;
 }
 
 .counter-card {
@@ -28,7 +28,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .counter-title {
@@ -43,7 +42,7 @@ body {
     font-family: Cursed Timer;
     font-size: 300px;
     background: #080001;
-    color: #F94F6D;
+    color: #f94f6d;
     width: 450px;
     height: 380px;
     display: flex;
@@ -67,12 +66,61 @@ body {
     height: 130px;
     font-family: Cursed Timer;
     font-weight: 400;
-    line-height: 27.81px;
     letter-spacing: 0%;
     text-align: center;
-    background-color: #1B244A;
-    color: #9AABD8;
-    border: 5px solid #9AABD8;
+    background-color: #1b244a;
+    color: #9aabd8;
+    border: 5px solid #9aabd8;
     border-radius: 10px;
     padding: 10px;
+}
+
+.increment-btn:hover {
+    background-color: #161d3d;
+    color: #8d9cc7;
+    border: 5px solid #8d9cc7;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reset-btn {
+    font-family: "Arimo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px 30px;
+    background-color: #1b244a;
+    border: 0;
+    border: 5px solid transparent;
+    transform: translateY(-5px);
+    border: 5px solid transparent;
+    box-shadow: .0rem 1rem 1rem #161d3d;
+    color: #eeeeee;
+}
+
+.reset-btn:hover {
+    transform: translateY(0);
+    box-shadow: .0rem .5rem .5rem #10152c;
+}
+
+.leader {
+    color: darkgreen;
+}
+
+#timer {
+    font-size: 50px;
+    margin: 0 10px;
+    height: 130px;
+    font-family: Cursed Timer;
+    font-weight: 400;
+    letter-spacing: 0%;
+    background-color: #1b244a;
+    color: #9aabd8;
 }
